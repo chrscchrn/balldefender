@@ -5,11 +5,14 @@ namespace balldefender;
 
 public class Ball : Entity
 {
-  public Ball(Vector2 position) : base(position)
-  {
+    public Ball(Vector2 position) : base(position)
+    {
 
-  }
-  public Ball() { }
+    }
+    public Ball()
+    {
+        // init ball in bottom middle
+    }
 
-  // destroy thru vampire  ( need to make it )
+    // destroy thru vampire  ( need to make it )
 }
